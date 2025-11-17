@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>PokeChef</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  <header>
+    <h1> <img src="img/poke_icon.png" alt="" srcset="" id="poke_icon"> PokeChef</h1>
+    <p class="subtitle">
+      Digite o nome de um Pokémon (em inglês, por favor) e veja uma receita combinando com o tipo dele.
+    </p>
+  </header>
+
+  <div class="search-bar">
+    <input
+      id="pokemon-input"
+      type="text"
+      placeholder="Ex.: charizard, bulbasaur, pikachu..."
+    />
+    <button id="buscar-btn">Search</button>
+  </div>
+
+  <main class="grid">
+    <section class="card" id="pokemon-card">
+      <div class="card-header">Pokémon</div>
+      <p class="muted">
+        Busque um Pokémon para ver imagem, tipo e alguns dados básicos aqui.
+      </p>
+    </section>
+
+    <section class="card" id="receita-card">
+      <div class="card-header">Receita</div>
+      <p class="muted">
+        Assim que o Pokémon for encontrado, sugerimos uma receita temática de acordo com o tipo dele.
+      </p>
+    </section>
+  </main>
+  <footer>Por: Darlan Deivid e Bruno Silva</footer>
+  <script src="script/script.js"></script>
+</body>
+</html>
