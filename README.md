@@ -43,6 +43,13 @@ O projeto segue os princípios de **Mobile First**, utiliza **DOM**, `fetch()`, 
 
 ## ⚙️ Como Rodar o Projeto
 
+- 1️⃣ Clonar o repositório
+```bash
+git clone https://github.com/seu-usuario/pokechef
+cd pokechef
+
+```
+
 - 2️⃣ Instalar dependências
 - npm install
 
@@ -52,12 +59,6 @@ O projeto segue os princípios de **Mobile First**, utiliza **DOM**, `fetch()`, 
 - 4️⃣ Abrir no navegador
 - http://localhost:3000
 
-### 1️⃣ Clonar o repositório
-```bash
-git clone https://github.com/seu-usuario/pokechef
-cd pokechef
-
-```
 
 ### 👥  Autores
 
